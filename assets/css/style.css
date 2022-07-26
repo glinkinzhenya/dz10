@@ -92,7 +92,7 @@ a {
     background-color: var(--color-primary);
     text-align: center;
     letter-spacing: 0.1em;
-    padding: 0 5em;
+    padding: 0.5em;
     min-height: 65px;
     max-width: 225px;
     color: var(--bg-color-grey);
@@ -187,10 +187,12 @@ a {
     font-size: 21px;
     line-height: 25px;
     margin-bottom: 10px;
+    color: var(--color-white);
 }
 
 .footer__description {
     font-weight: 400;
     font-size: 13px;
     line-height: 21px;
+    color: var(--color-white);
 }
