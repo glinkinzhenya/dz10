@@ -101,7 +101,7 @@ a {
 .main {}
 
 .about {
-    padding: 110px 0 90px;
+    padding: 98px 0 90px;
     background-color: var(--bg-color-lite);
 }
 
@@ -126,7 +126,7 @@ a {
 
 .experience {
     background-color: var(--color-primary);
-    padding: 100px 0 82px;
+    padding: 112px 0 82px;
     color: var(--color-white);
 }
 
@@ -142,9 +142,8 @@ a {
 }
 
 .work {
-    padding: 100px 0 90px;
+    padding: 100px 0 0px;
     background-color: var(--bg-color-lite);
-    
 }
 
 .container--work {
@@ -162,4 +161,36 @@ a {
 .work__description {
     text-align: center;
     color: var(--color-secondary);
+}
+
+.video {
+    padding: 47px 0 100px;
+    background-color: var(--bg-color-lite);
+}
+
+.video-frame {
+    width: 1110px;
+    height: 600px;
+    margin: 0 auto;
+}
+
+.footer {
+    background-color: var(--color-primary);
+    padding: 50px 0 45px;
+    color: var(--color-white);
+}
+
+.container--footer {}
+
+.footer__title {
+    font-weight: 500;
+    font-size: 21px;
+    line-height: 25px;
+    margin-bottom: 10px;
+}
+
+.footer__description {
+    font-weight: 400;
+    font-size: 13px;
+    line-height: 21px;
 }
